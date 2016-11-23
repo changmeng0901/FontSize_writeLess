@@ -1,0 +1,205 @@
+@size:40rem;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+ul,ol,li{
+    list-style: none;
+}
+html,body{
+    height: 100%;
+    background-color: #f1f1f1;
+    color: #444;
+}
+.cor_r1{
+    color: #fd4d36;
+}
+
+.header {
+    background: #fff;
+    overflow: hidden;
+    .item{
+        float: left;
+        width: 320/@size;
+        height: 80/@size;
+        line-height: 80/@size;
+        font-size: 29/@size;
+        text-align: center;
+    }
+    .item.cur{
+        color: #fd4d36;
+    }
+}
+
+.bing{
+    line-height: 44/@size;
+    margin-top: 20/@size;
+    padding: 14/@size 20/@size;
+    box-sizing: border-box;
+    background: #fff;
+    font-size: 23/@size;
+    color: #bdbdbd;
+    .bing_close{
+        float: left;
+        width: 26/@size;
+        height: 26/@size;
+        margin-right: 5/@size;
+        margin-top: 9/@size;
+        vertical-align: top;
+    }
+    .bing_btn{
+        float: right;
+        height: 46/@size;
+        line-height: 44/@size;
+        border: 1px solid #fd4d36;
+        box-sizing: border-box;
+        border-radius: 4/@size;
+        padding: 0 20/@size;
+        color: #fd4d36;
+    }
+}
+//订单状态
+.order_states{
+    margin-top: 9/@size;
+    padding: 30/@size 0;
+    overflow: hidden;
+    background: #fff;
+    .item{
+        position: relative;
+        float: left;
+        width: 128/@size;
+        text-align: center;
+    }
+    .item img{
+        vertical-align: top;
+        width: 44/@size;
+        height: 44/@size;
+    }
+    .item i{
+        position: absolute;
+        right: 26/@size;
+        top: -12/@size;
+        z-index: 1;
+        min-width: 24/@size;
+        padding: 0 5/@size;
+        height: 24/@size;
+        background: #fd4d36;
+        box-sizing: border-box;
+        border-radius: 12/@size;
+    }
+    .item p{
+        padding-top: 10/@size;
+        font-size: 24/@size;
+    }
+}
+//订单内容
+.order_content{
+    margin-top: 10/@size;
+}
+.o_content{
+    display: none;
+    font-size: 24/@size;
+    .o_item .text_tip{
+        text-align: right;
+        padding: 16/@size 20/@size;
+        background: #fff;
+        color: #fd4d36;
+    }
+    .order_list{
+        padding: 8/@size 0;
+    }
+    .dl_dl{
+        position: relative;
+        padding: 9/@size 20/@size;
+        overflow: hidden;
+    }
+    .dl_dl dt{
+        float: left;
+        width: 100/@size;
+        height: 100/@size;
+        margin-right: 18/@size;
+        background: #fff;
+        overflow: hidden;
+    }
+    .dl_dl dt img{
+        width: 100%;
+        min-height: 100%;
+    }
+    .dl_dl dd{
+        float: left;
+        width: 360/@size;
+    }
+    .product_name{
+        height: 70/@size;
+        line-height: 35/@size;
+        font-size: 24/@size;
+        overflow: hidden;
+    }
+    .product_unit{
+        height: 24/@size;
+        line-height: 24/@size;
+        margin-top: 8/@size;
+        font-size: 18/@size;
+        color: #666;
+    }
+    .product_num{
+        position: absolute;
+        right: 20/@size;
+        top: 58/@size;
+        line-height: 24/@size;
+        font-size: 18/@size;
+        color: #666;
+    }
+    .o_text{
+        height: 60/@size; 
+        text-align: right;
+        background: #fff;
+    }
+    .o_total{
+        position: relative;
+        line-height: 60/@size;
+        color: #b4b4b4;
+    }
+    .o_total:after{
+        position: absolute;
+        left: 20/@size;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        height: 1px;
+        background: #e0e0e0;
+        overflow: hidden;
+        content: '';
+    }
+    .o_payment{
+        padding: 14/@size 20/@size;
+    }
+    .default_btn{
+        display: inline-block;
+        line-height: 40/@size;
+        padding: 0 16/@size;
+        border: 1px solid #b3b3b3;
+        box-sizing: border-box;
+        border-radius: 4/@size;
+        vertical-align: top;
+        color: #b4b4b4;
+    }
+    .payment_btn{
+        display: inline-block;
+        line-height: 40/@size;
+        padding: 0 16/@size;
+        border: 1px solid #fd4d36;
+        box-sizing: border-box;
+        border-radius: 4/@size;
+        vertical-align: top;
+        color: #fd4d36;
+    }
+
+}
+
+

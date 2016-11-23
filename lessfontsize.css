@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+  background-color: #f1f1f1;
+  color: #444;
+}
+.cor_r1 {
+  color: #fd4d36;
+}
+.header {
+  background: #fff;
+  overflow: hidden;
+}
+.header .item {
+  float: left;
+  width: 8rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.725rem;
+  text-align: center;
+}
+.header .item.cur {
+  color: #fd4d36;
+}
+.bing {
+  line-height: 1.1rem;
+  margin-top: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  box-sizing: border-box;
+  background: #fff;
+  font-size: 0.575rem;
+  color: #bdbdbd;
+}
+.bing .bing_close {
+  float: left;
+  width: 0.65rem;
+  height: 0.65rem;
+  margin-right: 0.125rem;
+  margin-top: 0.225rem;
+  vertical-align: top;
+}
+.bing .bing_btn {
+  float: right;
+  height: 1.15rem;
+  line-height: 1.1rem;
+  border: 1px solid #fd4d36;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+  padding: 0 0.5rem;
+  color: #fd4d36;
+}
+.order_states {
+  margin-top: 0.225rem;
+  padding: 0.75rem 0;
+  overflow: hidden;
+  background: #fff;
+}
+.order_states .item {
+  position: relative;
+  float: left;
+  width: 3.2rem;
+  text-align: center;
+}
+.order_states .item img {
+  vertical-align: top;
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.order_states .item i {
+  position: absolute;
+  right: 0.65rem;
+  top: -0.3rem;
+  z-index: 1;
+  min-width: 0.6rem;
+  padding: 0 0.125rem;
+  height: 0.6rem;
+  background: #fd4d36;
+  box-sizing: border-box;
+  border-radius: 0.3rem;
+}
+.order_states .item p {
+  padding-top: 0.25rem;
+  font-size: 0.6rem;
+}
+.order_content {
+  margin-top: 0.25rem;
+}
+.o_content {
+  display: none;
+  font-size: 0.6rem;
+}
+.o_content .o_item .text_tip {
+  text-align: right;
+  padding: 0.4rem 0.5rem;
+  background: #fff;
+  color: #fd4d36;
+}
+.o_content .order_list {
+  padding: 0.2rem 0;
+}
+.o_content .dl_dl {
+  position: relative;
+  padding: 0.225rem 0.5rem;
+  overflow: hidden;
+}
+.o_content .dl_dl dt {
+  float: left;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.45rem;
+  background: #fff;
+  overflow: hidden;
+}
+.o_content .dl_dl dt img {
+  width: 100%;
+  min-height: 100%;
+}
+.o_content .dl_dl dd {
+  float: left;
+  width: 9rem;
+}
+.o_content .product_name {
+  height: 1.75rem;
+  line-height: 0.875rem;
+  font-size: 0.6rem;
+  overflow: hidden;
+}
+.o_content .product_unit {
+  height: 0.6rem;
+  line-height: 0.6rem;
+  margin-top: 0.2rem;
+  font-size: 0.45rem;
+  color: #666;
+}
+.o_content .product_num {
+  position: absolute;
+  right: 0.5rem;
+  top: 1.45rem;
+  line-height: 0.6rem;
+  font-size: 0.45rem;
+  color: #666;
+}
+.o_content .o_text {
+  height: 1.5rem;
+  text-align: right;
+  background: #fff;
+}
+.o_content .o_total {
+  position: relative;
+  line-height: 1.5rem;
+  color: #b4b4b4;
+}
+.o_content .o_total:after {
+  position: absolute;
+  left: 0.5rem;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 1px;
+  background: #e0e0e0;
+  overflow: hidden;
+  content: '';
+}
+.o_content .o_payment {
+  padding: 0.35rem 0.5rem;
+}
+.o_content .default_btn {
+  display: inline-block;
+  line-height: 1rem;
+  padding: 0 0.4rem;
+  border: 1px solid #b3b3b3;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+  vertical-align: top;
+  color: #b4b4b4;
+}
+.o_content .payment_btn {
+  display: inline-block;
+  line-height: 1rem;
+  padding: 0 0.4rem;
+  border: 1px solid #fd4d36;
+  box-sizing: border-box;
+  border-radius: 0.1rem;
+  vertical-align: top;
+  color: #fd4d36;
+}
